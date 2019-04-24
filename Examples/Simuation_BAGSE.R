@@ -1,11 +1,11 @@
 ### Example for estimating the enrichment parameters using bagse_cpp, with simulated data. 
 ### The file with the simulated data is "Simulated_Data.txt", in this folder
 
-
+library(devtools)
 library(Rcpp)
 library(RcppArmadillo)
 library(SQUAREM)
-sourceCpp("bagse.cpp") #The .cpp file in the src folder here
+install_github("abhukku/Bagse_cpp")
 
 #10,000 genes
 n = 10000
