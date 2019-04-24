@@ -1,4 +1,5 @@
-###Example for estimating the enrichment parameters using bagse_cpp, with simulated data
+### Example for estimating the enrichment parameters using bagse_cpp, with simulated data. 
+### The file with the simulated data is "Simulated_Data.txt", in this folder
 
 
 library(Rcpp)
