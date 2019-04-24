@@ -1,6 +1,10 @@
+###Example for estimating the enrichment parameters using bagse_cpp, with simulated data
+
+
 library(Rcpp)
 library(RcppArmadillo)
 library(SQUAREM)
+sourceCpp("bagse.cpp")
 
 #10,000 genes
 n = 10000
@@ -30,7 +34,7 @@ amp = 4.5
 #Based on real data, a long-tailed distribution like t can be representatitve of the distribution of z-scores of associated genes
 zscores[gamma == 1] = amp*rt(sum(gamma),df = 10)
 
-#Set the parameters to be used in torus
+#Set the parameters to be used in torus_cpp
 betahat = zscores
 sebetahat = rep(1,n)
 annotation = annot_vec
