@@ -7,6 +7,6 @@ Note: Must have the packages Rcpp, RcppArmadillo, and SQUAREM for use.
 
 Refer to the Examples folder with a case using simulated data for more details and clarity on the utilization of this software. 
 
-Original implementations of BAGSE in R and C located at https://github.com/xqwen/bagse
+Original implementations of BAGSE in R and C located at https://github.com/xqwen/bagse. Refer there for more details 
 
 Refer any questions to abhukku@umich.edu
