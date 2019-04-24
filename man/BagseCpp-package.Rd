@@ -13,7 +13,7 @@
 The DESCRIPTION file:
 \packageDESCRIPTION{BagseCpp}
 \packageIndices{BagseCpp}
-~~ An overview of how to use the package, including the most important functions ~~
+~~ Package for enrichment analysis ~~
 }
 \author{
 \packageAuthor{BagseCpp}
