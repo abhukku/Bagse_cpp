@@ -44,4 +44,11 @@ t = torus_cpp(betahat,sebetahat,annotation)
 t$enrichment_est
 #Should be -3.06 for a0 and 0.93 for a1. 
 
+#If you want to compare the results to the R package, the R code is in the R folder in the repo
+source("bagse.R")
+r = torus(betahat,sebetahat,annotation)
+r$enrichment_est
+#Should be -3.07 for a0 and 0.93 for a1 again, but markedly slower
+
+
 
