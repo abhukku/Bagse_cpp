@@ -19,13 +19,13 @@ a0 = -2.5
 a1 = 1
 set.seed(815)
 
-#generate vector of annotations
+#Generate vector of annotations
 annot_vec = c(rep(0,(1-prop_annot)*n),rep(1,prop_annot*n))
 
 #Probabilities for each gene that they are associated, based on enrichment parameters
 pi = exp(a0+a1*annot_vec)/(1+exp(a0+a1*annot_vec))
 
-#Generate true association statuses of all genes, based on pi
+#Generate true association status of all genes, based on pi
 gamma = rbinom(n,1,pi)
 
 #Generate z-scores for all genes, depending on if they are truly associated
