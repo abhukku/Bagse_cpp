@@ -4,7 +4,7 @@
 library(Rcpp)
 library(RcppArmadillo)
 library(SQUAREM)
-sourceCpp("bagse.cpp")
+sourceCpp("bagse.cpp") #The .cpp file in the src folder here
 
 #10,000 genes
 n = 10000
