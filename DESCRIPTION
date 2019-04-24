@@ -1,0 +1,13 @@
+Package: BagseCpp
+Type: Package
+Title: An Rcpp Armadillo package for conducting Bayesian gene set enrichment analysis
+Version: 1.0
+Date: 2019-04-23
+Author: Abhay Hukku
+Maintainer: <abhukku@umich.edu>
+Description: Use this package to conduct Bayesian gene set enrichment analysis to find the enrichment parameters for a gene set of interest. Can also calculate local fdr for each gene using the enrichment information.
+License: GPL-3
+Imports: Rcpp (>= 1.0.1)
+LinkingTo: Rcpp, RcppArmadillo
+Encoding: UTF-8
+RoxygenNote: 6.1.1
